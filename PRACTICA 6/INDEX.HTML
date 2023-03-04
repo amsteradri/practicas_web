@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <header><center>REGISTRO</center></header>
+    <h3><center>"esta en pruebas utiliza JOSE  en usuario y nombre , SOYPROFE en la contraseña y jose@gmail.com en correo"</center></h3>
+  </head>
+  <br></br>
+  <br></br>
+  <body>
+<main><center>
+
+  <script src="ir.js"></script>
+
+<form action="registro" class="form" id="form" name=form >
+  <div class="form__grupo" id="grupo__usuario">
+
+    <label for="usuario" class="form__label">Usuario</label>
+    <div class="form__grupo-input">
+    <input type="text" name=usuario class="form__input" id="usuario" placeholder="Introduce tu usuario">
+    <i class=" form__validacion-estado far fa-times-circle"></i>
+    </div>
+    <p class="form__input-error"> *El usuario solo puede contener letras, numeros, puntos y barras*</p>
+    </div>
+
+
+
+<div class="form__grupo" id="grupo__usuario">
+
+    <label for="nombre" class="form__grupo" >Nombre</label>
+    <div class="form__grupo-input">
+    <input type="text" name=nombre class="form__input" id="nombre" placeholder="Introduce tu nombre">
+    <i class=" form__validacion-estado far fa-times-circle"></i>
+
+    </div>
+    <p clas="form__input-error"> *El nombre solo puede contener letras*</p>
+    </div>
+
+
+
+<div class="form__grupo" id="grupo__usuario">
+    <label for="pass" class="form__label">Contraseña</label>
+    <div class="form__grupo-input">
+    <input type="password" name=pass class="form__input" id="pass" placeholder="Introduce tu contraseña">
+    <i class=" form__validacion-estado far fa-times-circle"></i>
+    <p clas="form__input-error">
+    </div>
+    <p clas="form__input-error"> *El apellido solo puede contener letras*</p>
+
+    </div>
+<div class="form__grupo" id="grupo__usuario">
+    <label for="correo" class="form__label">Correo electronico</label>
+    <div class="form__grupo-input">
+    <input type="text" name=correo class="form__input" id="correo" placeholder="Introduce tu correo electronico" >
+    <i class=" form__validacion-estado far fa-times-circle"></i>
+    <p clas="form__input-error"> *El correo electronico solo puede contener letras, numeros, puntos y barras*</p>
+    </div>
+    <div class="form__mensaje" id="form__mensaje-error">
+      <p><i class="fas fa-exclamation-circle"></i> <b>ERROR</b></p>
+    </div>
+</div>
+<div class="form__boton" id="form__boton">
+      <input type="button"  onclick=prueba() value="REGISTRARME">
+    <p class="form__mensaje-exito" id="form__mensaje-exito">Formulario enviado</p>
+</div>
+
+
+
+
+</form>
+
+
+
+
+
+</main></center>
+
+
+</body>
+      <script src="estado.js"></script>
+      <script src="registro.js"></script>
+      <script src="https://kit.fontawesome.com/8f4f679062.js" crossorigin="anonymous"></script>
+
+  </body>
+</html>

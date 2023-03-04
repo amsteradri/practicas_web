@@ -1,0 +1,90 @@
+.form {
+display:grid;
+width:50%;
+grid-template-columns: 1fr 1fr;
+margin-top: 30px;
+margin-right:40px;
+}
+
+body{
+
+background: lightgray;
+}
+main{
+
+border: 1px solid;
+border-radius: 30px;
+margin-top:1% ;
+margin-bottom:10% ;
+margin-left: 10% ;
+margin-right: 8% ;
+}
+.form__validacion-estado{
+opacity: 0;
+
+
+
+}
+header{
+  font-size:30px;
+}
+
+.form__mensaje{
+
+  display:none;
+
+
+
+
+
+}
+.form__mensaje-activo{
+
+
+  display:block;
+align-items: center;
+
+
+
+}
+
+
+.form__mensaje-exito{
+
+
+display:none;
+
+
+
+}
+.form__mensaje-exito-activo{
+
+
+display:block;
+
+
+
+}
+
+.form__boton{
+
+margin-left: 290px;
+margin-bottom: 30px;
+align-items: center;
+
+
+}
+.form__input{
+margin-top: 10px;
+
+border-radius: 4px;
+
+
+}
+.form__grupo-input{
+margin-top: 10px;
+
+border-radius: 4px;
+
+
+}

@@ -1,0 +1,12 @@
+h1 {
+  background-image: url("Imagenes/Fondocielo.jpg");
+  font-size: 50px;
+  text-align: center;
+  color:rgb(255,255,255);
+}
+body {
+  background-image: url("Imagenes/Fondocielo.jpg");
+  font-size: 20px;
+  text-align: center;
+  color:rgb(255,255,255);
+}
